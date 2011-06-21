@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textSize="16pt" />
+    <Button
+        android:id="@+id/buttonHigh"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonHigh"
+        android:layout_centerVertical="true"
+        android:textSize="12pt"
+        android:onClick="onClickHighButton"></Button>
+    <Button
+        android:id="@+id/buttonLow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonLow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textSize="12pt"
+        android:onClick="onClickLowButton"></Button>
+
+</RelativeLayout>
